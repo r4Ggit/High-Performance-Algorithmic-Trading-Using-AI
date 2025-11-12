@@ -1,11 +1,16 @@
-
-# Virtual environment
+# Virtual environments
 algo_env/
+venv/
+env/
+.venv/
+ENV/
 
 # Python general
 __pycache__/
 *.py[cod]
 *$py.class
+*.pyo
+*.pyd
 *.so
 .Python
 build/
@@ -27,6 +32,7 @@ MANIFEST
 
 # Jupyter Notebook
 .ipynb_checkpoints/
+*.ipynb_checkpoints
 
 # IDE
 .vscode/
@@ -40,3 +46,5 @@ Thumbs.db
 
 # Logs
 *.log
+pip-log.txt
+pip-delete-this-directory.txt
